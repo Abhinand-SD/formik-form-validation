@@ -1,16 +1,80 @@
-# React + Vite
+# Signup Form with Formik and Yup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple signup form built using **React**, **Formik**, and **Yup**.
+It demonstrates form handling, validation, and error messages in a clean and reusable way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* User-friendly signup form
+* Form state management using **Formik**
+* Validation powered by **Yup**
+* Error messages shown below each input field
+* Password and Confirm Password validation
+* Console log of submitted data
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React** (UI library)
+* **Formik** (form state management)
+* **Yup** (validation schema)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── App.jsx            # Main component with the form
+│── signupValidation.js # Yup validation schema
+│── index.js           # React entry point
+```
+
+---
+
+## 📋 Validation Rules
+
+* **Name** → Required
+* **Email** → Must be a valid email
+* **Password** → Minimum 8 characters
+* **Confirm Password** → Must match password
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/formik-signup-form.git
+cd formik-signup-form
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the project
+
+```bash
+npm start
+```
+
+---
+
+## 🖼️ Screenshot
+<img width="1920" height="1080" alt="Screenshot 1" src="https://github.com/user-attachments/assets/a7edd9cc-331c-4da9-86aa-f498e9ab995a" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2" src="https://github.com/user-attachments/assets/8ca3a068-8e97-40eb-a6d4-eeb4b4b7c630" />
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
