@@ -68,10 +68,10 @@ npm start
 ---
 
 ## 🖼️ Screenshot
-<img width="1920" height="1080" alt="Screenshot 1" src="https://github.com/user-attachments/assets/a7edd9cc-331c-4da9-86aa-f498e9ab995a" />
+<img width="1920" height="1080" alt="Screenshot" src="https://github.com/user-attachments/assets/1d6db9dc-37b6-4029-aec2-6fb5bcdfccec" />
 
+<img width="1920" height="1080" alt="Screenshot without value" src="https://github.com/user-attachments/assets/29623a28-8c95-43cc-bcef-59bf3c3c8d54" />
 
-<img width="1920" height="1080" alt="Screenshot 2" src="https://github.com/user-attachments/assets/8ca3a068-8e97-40eb-a6d4-eeb4b4b7c630" />
 
 ---
 
